@@ -134,7 +134,7 @@ void handleNewMessages(int numNewMessages) {
       welcome += "/LihatIntensitas : Untuk Melihat Jumlah Intensitas Cahaya Saat Ini\n";
       welcome += "/LihatStatusLED : Untuk Melihat Status LED\n";
       welcome += "/LihatBatasIntensitasLED : Untuk Melihat Batas Intensitas Setiap LED\n";
-      welcome += "/AturBatasIntensitas : Untuk Melihat Status LED\n";
+      welcome += "/AturBatasIntensitas : Untuk Mengatur Batas Intensitas LED\n";
       bot.sendMessage(chat_id, welcome, "Markdown");
     }
   }
